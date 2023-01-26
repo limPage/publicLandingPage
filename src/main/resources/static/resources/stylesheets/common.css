@@ -1,0 +1,97 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+
+html{
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-weight: 400;
+}
+
+*{ font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    padding: unset;
+    margin: unset;
+}
+.hello_world{
+    padding-top: 1rem;
+}
+
+h3{margin: 0;}
+
+body .title{
+    border-bottom: cadetblue 2px solid;
+    background-color: darkseagreen;
+    color: #00512e;
+    margin: 1rem 0;
+    border-radius: 0.25rem;
+}
+
+body{
+    max-width: 50rem;
+    overflow: hidden auto;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: rgba(0,0,0,0.7);
+    /*background-color: lightskyblue;*/
+}
+
+body>main{
+
+    /*max-width: 50rem;*/
+    /*background-color: #f7fff6;*/
+    box-shadow: 5px 0 10px 10px rgba(0,0,0,0.3);
+    padding: 0.25rem;
+    background-color: white;
+
+}
+body>main>div>div{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+p,span{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+
+/*자기소개*/
+body>main>.about-me-container>.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body>.main>.about-me-container>.content>img{
+    height: 10rem;
+    width: 8.5rem;
+    border-radius: 0.3rem;
+    filter: opacity(95%);
+    margin-right: 1rem;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.4);
+
+}
+/*연락처*/
+body>.main>.contact-container>div>a{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    color: black;
+}
+/*스킬*/
+body>.main>.skill-container img{
+        max-height: 1rem;
+        max-width: 1rem;
+
+}
+/*프로젝트*/
+body>.main>.project-container img{
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+}
+body>.main>.project-container>.content{
+    padding: 1rem 0.5rem  1rem 0.5rem;
+    border-bottom: 2px dashed rgba(0,0,0,0.5);
+
+}
