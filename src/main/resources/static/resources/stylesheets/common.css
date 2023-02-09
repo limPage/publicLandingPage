@@ -72,6 +72,7 @@ body>main>.button-container>#btnTop{
     border: unset;
     background-color: transparent;
     color: white;
+    cursor: pointer;
 }
 
 
